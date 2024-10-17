@@ -13,7 +13,8 @@
     "clangd",
     "language-server",
     "c",
-    "nodejs"
+    "nodejs",
+    "lsp"
   ],
   "author": "Antonio",
   "license": "GPL-3.0",
