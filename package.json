@@ -1,24 +1,25 @@
 {
-    "name": "gcclangsapi",
-    "version": "1.0.0.1",
-    "description": "A C Language Server using Clangd and Node.js",
-    "main": "server.js",
-    "scripts": {
-      "start": "node server.js"
-    },
-    "keywords": [
-      "gcc",
-      "clangd",
-      "language-server",
-      "c",
-      "nodejs"
-    ],
-    "author": "Antonio",
-    "license": "GPL-3.0",
-    "dependencies": {
-      "express": "^4.18.2",
-      "body-parser": "^1.20.2",
-      "cors": "^2.8.5"
-    }
+  "name": "gcclangsapi",
+  "version": "1.0.0.1",
+  "description": "A C Language Server using Clangd and Node.js",
+  "main": "server.js",
+  "scripts": {
+    "start": "node setup.js && node server.js",
+    "setup": "node setup.js",
+    "check-clangd": "node setup.js"
+  },
+  "keywords": [
+    "gcc",
+    "clangd",
+    "language-server",
+    "c",
+    "nodejs"
+  ],
+  "author": "Antonio",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "express": "^4.18.2",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5"
   }
-  
+}
